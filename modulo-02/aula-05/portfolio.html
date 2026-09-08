@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<body>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#Sobre mim">Sobre mim</a></li>
+                <li><a href="#Minhas Habilidades"> Minhas Habilidades </a></li>
+            
+            
+
+            </ul>
+           
+
+    <h1 align= "center" >Portfólio de Lucas Araujo</h1>
+<hr>
+
+    
+        </nav>
+    </section>
+
+    <header id="Sobre mim"></header>
+    <h2>Sobre mim</h2>
+
+    <br>
+
+    <p>Meu nome é Lucas, estou no segundo ano do ensino médio, estudo no CETEP e faço curso de informática.</p>
+
+    <hr>
+
+    <header id="Minhas Habilidades"></header>
+    <h2>Minhas Habilidades</h2>
+
+    <header id="Meu github"></header>
+    <br>
+<ul> 
+    <LI>Inglês intermediário</LI>
+    <li>Profissioinal em Vôlei</li>
+    <li>Sou bom em matatemática</li>
+    <li>Básico de python e aprendiz de HTML</li>
+</ul>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6r0JruuIFft0qv2Yaqfxc0YqNBe8mEzrWWyoQoiC5bw&s=10" alt="Speed holding your laugh">
+
+<hr>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>idade</th>
+            <th>Colégio</th>
+            <th>Curso</th>
+            <th>Hobby</th>
+        </tr>
+        
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Lucas</td><td>16</td><td>CETEP</td><td>Informática</td><td>Vôlei</td>
+        </tr>
+    </tbody>
+    
+</table>
+<hr>
+
+<h3 id="Meu github"></h3>
+<a href="https://github.com/zxLsxz/juventude-dev-Lucaszx" target="_blank"> Meu github</a>
+
+<hr>
+
+<form id="Form-Formulario">
+
+    <h4>Fale comigo preenchendo o formulário abaixo:</h4>
+
+    <br>
+
+    <input type="text" name="nome" placeholder="Seu nome:">
+
+    <br><br>
+
+    <input type="email" name="email" placeholder="Seu email:">
+
+    <br><br>
+
+    <input type="number" name="telefone" placeholder="Seu Telefone:">
+
+    <br><br>
+
+    <textarea name="Mensagem" placeholder="Mensagem"></textarea>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+
+</form>
+<hr>
+
+
+</body>
+</html>
+
+<script>
+
+    const formulario = document.querySelector("#Form-Formulario");
+
+    formulario.addEventListener("submit", function (event) {
+
+        event.preventDefault();
+
+        const confirmou = confirm("Deseja realmente enviar?");
+
+        if (confirmou) {
+
+            alert("Mensagem enviada com Sucesso!");
+
+            formulario.reset();
+
+        }
+
+    });
+
+</script>
