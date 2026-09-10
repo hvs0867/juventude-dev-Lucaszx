@@ -17,3 +17,34 @@ body {
 p { color: blue; }
 .aviso { color: orange; }
 #erro { color: red; }
+
+.cartao {
+    width: 280px;
+    padding: 40px;
+    border: 5px solid #93c5fd;
+    margin: 5px;
+    height: 550px;
+    box-sizing: border-box;
+}
+
+.bio { margin-bottom: 8px;}
+
+.interesses {
+    padding-left: 24px;
+    text-align: left;
+}
+
+html { font-size: 16px;}
+
+}
+#titulo { font-siz: 2rem; } /* 32px */
+.cartao {
+    width: 90%;
+    max-width: 420px;
+    padding: 1.5rem;
+}
+
+#titulo {font-size: 2rem;}
+.bio { font-size: 1rem;}
+body { min-height: 100vh; }
+
