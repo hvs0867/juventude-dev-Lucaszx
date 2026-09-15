@@ -25,3 +25,29 @@ h1, h2, h3, h4, h5{
 .titulo >h1{
     font-size: 3.5rem;
 }
+
+#programacao > table{
+    font-size: 1.5rem;
+    border: 2px solid rgb(128, 68, 240);
+}
+
+#programacao > li, ul, ol{
+    font-size: 1.5rem;
+}
+
+#contatos > a{
+    font-size: 1.5rem;
+}
+
+.subtit {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* html{scroll-behavior: smooth;} */
+
+#contatos p, a, h4{
+    font-size: 1.5rem;
+
+
+}
