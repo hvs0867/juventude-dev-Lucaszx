@@ -1,0 +1,56 @@
+#areas > img {
+    width: 80%;
+   max-width: 400px;
+   height: auto;
+}
+
+p{
+    font-size: 1.37rem;
+}
+
+
+h1, h2, h3, h4, h5{
+    font-size: 2.5rem;
+}
+
+#inicio > a, button{
+    width: 50%;
+    max-width: 300px;
+}
+
+.titulo{
+    font-size: 2rem;
+}
+
+.titulo >h1{
+    font-size: 3.5rem;
+}
+
+#programacao > table{
+    font-size: 1.5rem;
+    border: 2px solid rgb(128, 68, 240);
+}
+
+#programacao > li, ul, ol{
+    font-size: 1.5rem;
+}
+
+#contatos > a{
+    font-size: 1.5rem;
+}
+
+.subtit {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html{scroll-behavior: smooth;}
+
+#contatos p, a, h4{
+    font-size: 1.5rem;
+}
+
+#faq > p, h4, h2{
+  
+    font-size: 1.7rem;
+}

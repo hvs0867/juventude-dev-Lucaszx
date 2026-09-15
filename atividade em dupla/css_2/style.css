@@ -1,53 +1,141 @@
-#areas > img {
-    width: 80%;
-   max-width: 400px;
-   height: auto;
+html {
+    scroll-behavior: smooth;
+    color: #222;
 }
 
-p{
-    font-size: 1.37rem;
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica;
+    line-height: 1.5;
+}
+
+.titulo {
+    width: 70%;
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 30px 15px;
+    border-radius: 15px;
+    background-color: #244b5a;
+    box-shadow: 0 2px 8px #999;
+    color: white;
+    text-align: center;
+}
+
+.titulo h1 {
+    margin: 0;
+    color: #f7d488;
+    font-size: 3rem;
+}
+
+.titulo h3 {
+    font-weight: normal;
+}
+
+.titulo p {
+    color: #d5eee8;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.titulo nav {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #909a71;
+}
+
+.titulo nav a {
+    margin: 5px 8px;
+    color: white;
+    font-size: 0.95rem;
 }
 
 
-h1, h2, h3, h4, h5{
-    font-size: 2.5rem;
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
 }
 
-#inicio > a, button{
-    width: 50%;
-    max-width: 300px;
+section {
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: white;
 }
 
-.titulo{
+h2, h3, h4 {
+    color: #244b5a;
+}
+
+h2 {
+   
     font-size: 2rem;
 }
 
-.titulo >h1{
-    font-size: 3.5rem;
-}
-
-#programacao > table{
-    font-size: 1.5rem;
-    border: 2px solid rgb(128, 68, 240);
-}
-
-#programacao > li, ul, ol{
-    font-size: 1.5rem;
-}
-
-#contatos > a{
-    font-size: 1.5rem;
+h3 {
+    font-size: 1.6rem;
 }
 
 .subtit {
-    font-family: Arial, Helvetica, sans-serif;
+    color: #28766b;
+}
+
+p {
+    font-size: 1rem;
+}
+
+#areas img {
+    width: 80%;
+    max-width: 500px;
+    height: 250px;
+    margin: 10px 0 25px;
+    border-radius: 8px;
+
+}
+
+#tabela {
+    width: 100%;
+    
+    font-size: 1rem;
+    text-align: left;
 }
 
 
-/* html{scroll-behavior: smooth;} */
 
-#contatos p, a, h4{
-    font-size: 1.5rem;
-
-
+#tabela th {
+    background-color: #244b5a;
+    color: white;
 }
+
+#tabela tr{
+    background-color: #eaf3f1;
+}
+
+a {
+    color: #176b68;
+    font-weight: bold;
+}
+
+button {
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #e5a34c;
+    color: #222;
+    font-size: 1rem;
+}
+
+
+#faq h4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+footer {
+    height: 30px;
+    background-color: #244b5a;
+}
+
